@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    position: relative;
+}
+h1{
+    text-align: center;
+    color: #f59534;
+    font-size: 60px;
+}
+#clockContainer{
+    position: relative;
+    width: 35vw;
+    height: 80vh;
+    border: 2px black solid;
+    margin: auto;
+    background: url(clock.png) no-repeat ;
+    background-size: 100%;
+        box-shadow: 0 0 40px #f59534;
+       
+}
+#hourHand, #minHand, #secHand{
+    position: absolute;
+    transform-origin: bottom;
+    background-color: #b0045b;
+    opacity: 0.8;
+    border-radius: 30px
+}
+
+#hourHand{
+    width: 1.5%;
+    height: 25%;
+    top: 139px;
+    left: 263px;
+}
+#minHand{
+    width: 1%;
+    height: 27%;
+    top: 128px;
+    left: 263px;
+}
+#secHand{
+    width: 1%;
+    height: 30%;
+    top: 112px;
+    left: 263px;
+
+}
